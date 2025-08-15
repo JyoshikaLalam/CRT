@@ -3,7 +3,7 @@ class Solution:
     def makesquare(self, matchsticks: List[int]) -> bool:  
         total_length = sum(matchsticks)  
         if total_length % 4 != 0:  
-            return False  
+            return False 
         side_length = total_length // 4  
         matchsticks.sort(reverse=True)  
         sides = [0] * 4  
